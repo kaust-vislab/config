@@ -1,7 +1,7 @@
 # can't autopain on Windows without too much hassle
 # can't build universal on OS X
 
-set(BINO_PACKAGE_VERSION 1.4.0)
+set(BINO_PACKAGE_VERSION 1.4)
 set(BINO_DEPENDS Equalizer
   REQUIRED FFMPEG GLEW_MX OpenAL Qt4 libavdevice libass)
 set(BINO_DEB_DEPENDS libopenal-dev libavdevice-dev libass-dev liblircclient-dev)
