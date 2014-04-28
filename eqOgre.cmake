@@ -9,5 +9,5 @@ set(EQOGRE_DEB_DEPENDS pkg-config freeglut3-dev)
 
 # ogre does not install Ubuntu 13.10 on due to boost version conflicts
 if(NOT (LSB_RELEASE AND LSB_CODENAME STREQUAL "saucy"))
-  list(APPEND EQOGRE_DEB_DEPENDS libogre-dev)
+  list(APPEND EQOGRE_DEB_DEPENDS libogre-1.8-dev)
 endif()
