@@ -5,5 +5,6 @@ set(VRPN_REPO_URL https://github.com/BlueBrain/vrpn.git)
 set(VRPN_OPTIONAL ON)
 # Build with Wiiuse support by default
 set(VRPN_DEPENDS REQUIRED Wiiuse)
+set(VRPN_DEB_DEPENDS libbluetooth-dev)
 set(VRPN_CMAKE_ARGS -DVRPN_USE_WIIUSE=ON -DVRPN_GPL_SERVER=ON)
 set(VRPN_CMAKE_INCLUDE "SYSTEM")
