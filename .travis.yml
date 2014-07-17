@@ -11,6 +11,7 @@ before_install:
  - sudo apt-get install -qq bison || /bin/true
  - sudo apt-get install -qq cmake || /bin/true
  - sudo apt-get install -qq cppcheck || /bin/true
+ - sudo apt-get install -qq cython || /bin/true
  - sudo apt-get install -qq doxygen || /bin/true
  - sudo apt-get install -qq flex || /bin/true
  - sudo apt-get install -qq fop || /bin/true
@@ -71,16 +72,16 @@ before_install:
  - sudo apt-get install -qq libunwind8-dev || /bin/true
  - sudo apt-get install -qq libvncserver-dev || /bin/true
  - sudo apt-get install -qq libvtk5-dev || /bin/true
+ - sudo apt-get install -qq libvtk5-qt4-dev || /bin/true
  - sudo apt-get install -qq libx11-dev || /bin/true
  - sudo apt-get install -qq libxmu-dev || /bin/true
  - sudo apt-get install -qq libxslt1-dev || /bin/true
  - sudo apt-get install -qq ninja-build || /bin/true
  - sudo apt-get install -qq openmpi-bin || /bin/true
  - sudo apt-get install -qq pkg-config || /bin/true
+ - sudo apt-get install -qq python-nose || /bin/true
  - sudo apt-get install -qq subversion || /bin/true
  - sudo apt-get install -qq tau || /bin/true
- - sudo apt-get install -qq vagrant || /bin/true
- - sudo apt-get install -qq virtualbox || /bin/true
 script:
  - git clone --depth 10 https://github.com/Eyescale/Buildyard.git
  - cd Buildyard
