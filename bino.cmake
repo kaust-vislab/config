@@ -10,7 +10,7 @@ if(MSVC OR APPLE)
   return()
 endif()
 
-set(BINO_REPO_URL git://git.savannah.nongnu.org/bino.git)
+set(BINO_REPO_URL http://git.savannah.gnu.org/cgit/bino.git)
 set(BINO_SOURCE "${CMAKE_SOURCE_DIR}/src/bino")
 set(BINO_OPTIONAL ON)
 set(BINO_EXTRA
