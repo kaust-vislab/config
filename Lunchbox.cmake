@@ -1,5 +1,5 @@
 
-set(LUNCHBOX_PACKAGE_VERSION 1.9)
+set(LUNCHBOX_PACKAGE_VERSION 1.10)
 set(LUNCHBOX_REPO_URL https://github.com/Eyescale/Lunchbox.git)
 set(LUNCHBOX_DEPENDS eyescale eyescalePorts hwloc DNSSD avahi-client
   LibJpegTurbo OpenMP MPI leveldb skv REQUIRED Boost)
