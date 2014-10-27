@@ -1,5 +1,5 @@
 
-set(EQUALIZER_PACKAGE_VERSION 1.7)
+set(EQUALIZER_PACKAGE_VERSION 1.8)
 set(EQUALIZER_DEPENDS
   REQUIRED vmmlib Lunchbox Collage OpenGL Boost
   OPTIONAL X11 hwsd GLStats hwloc OpenSceneGraph OpenCV VRPN
