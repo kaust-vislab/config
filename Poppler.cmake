@@ -1,4 +1,6 @@
-
+if(MSVC)
+  return()
+endif()
 set(POPPLER_PACKAGE_VERSION 0.24)
 set(POPPLER_REPO_URL https://github.com/BlueBrain/Poppler.git)
 set(POPPLER_REPO_TAG bbp)
