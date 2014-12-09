@@ -1,7 +1,7 @@
 # can't autopain on Windows without too much hassle
 # can't build universal on OS X
 
-set(BINO_PACKAGE_VERSION 1.4.0)
+set(BINO_PACKAGE_VERSION 1.4)
 set(BINO_DEPENDS Equalizer
   REQUIRED FFMPEG GLEW_MX OpenAL Qt4 libavdevice libass)
 set(BINO_DEB_DEPENDS libopenal-dev libavdevice-dev libass-dev liblircclient-dev)
@@ -10,7 +10,7 @@ if(MSVC OR APPLE)
   return()
 endif()
 
-set(BINO_REPO_URL git://git.savannah.nongnu.org/bino.git)
+set(BINO_REPO_URL http://git.savannah.gnu.org/cgit/bino.git)
 set(BINO_SOURCE "${CMAKE_SOURCE_DIR}/src/bino")
 set(BINO_OPTIONAL ON)
 set(BINO_EXTRA

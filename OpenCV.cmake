@@ -1,6 +1,2 @@
-
 set(OPENCV_PACKAGE_VERSION 2.0)
-if(${CI_BUILD})
-  return()
-endif()
 set(OPENCV_CMAKE_INCLUDE "SYSTEM")
